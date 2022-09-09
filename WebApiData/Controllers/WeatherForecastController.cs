@@ -11,7 +11,7 @@ namespace WebApiData.Controllers
 {
     [ApiController]
     [Route("api/weather")]
-    [Produces("application/xml")]
+    [Produces("application/json")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

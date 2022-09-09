@@ -26,7 +26,7 @@ namespace WebApiData
         public void ConfigureServices(IServiceCollection services)
         {
             
-            services.AddControllers().AddXmlSerializerFormatters();
+            services.AddControllers();
 
         }
 
